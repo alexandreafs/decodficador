@@ -49,7 +49,7 @@ main {
   gap: 0 10px;
   margin-top: 18px;
 }
-.btn-encriptar {
+.btn-criptografar {
   background-color: #0a3871;
   border: 1px solid #0a3871;
   border-radius: 24px;
@@ -58,7 +58,7 @@ main {
   height: 67px;
   width: 328px;
 }
-.btn-desencriptar {
+.btn-descriptografar {
   background-color: #d8dfe8;
   border: 1px solid #0a3871;
   border-radius: 24px;

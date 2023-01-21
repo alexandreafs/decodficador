@@ -83,7 +83,7 @@ main {
   font-size: 18px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .textarea {
     width: 688px;
     height: 288px;
@@ -116,7 +116,7 @@ main {
 
 /* Responsividade mobile */
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
   /* header {
     position: absolute;
     width: 375px;

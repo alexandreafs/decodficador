@@ -10,7 +10,7 @@ const mensagem = document.querySelector(".mensagem");
 
 function copiar() {
   mensagem.select();
-  document.execCommand("copy");
+  navigator.clipboard.writeText(mensagem.value);
   mensagem.value = "";
 }
 

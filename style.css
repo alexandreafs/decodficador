@@ -116,7 +116,7 @@ main {
 
 /* Responsividade mobile */
 
-@media (max-width: 375px) {
+@media (max-width: 375px) and (min-width: 280px) {
   /* header {
     position: absolute;
     width: 375px;

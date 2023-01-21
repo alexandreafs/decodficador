@@ -113,3 +113,61 @@ main {
     padding: 10px;
   }
 }
+
+/* Responsividade mobile */
+
+@media screen and (max-width: 375px) {
+  /* header {
+    position: absolute;
+    width: 375px;
+    height: 96px;
+    left: 0px;
+    top: 0px;
+  } */
+  h6 {
+    width: 327px;
+    font-size: 16px;
+  }
+  .textarea {
+    width: 327px;
+    height: 288px;
+    top: 240px;
+    left: 40px;
+  }
+  .mensagem {
+    background-position: bottom;
+    background-size: 40%;
+    position: absolute;
+    width: 278px;
+    height: 343px;
+    left: -80px;
+    top: 650px;
+    border-radius: 32px;
+    padding: 32px;
+  }
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+  }
+  .btn-criptografar {
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+  }
+  .btn-copiar {
+    height: 67px;
+    width: 328px;
+    left: -80px;
+    top: 670px;
+    border-radius: 24px;
+    padding: 10px;
+  }
+  /* .logoalura {
+    width: ;
+  } */
+}

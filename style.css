@@ -16,7 +16,9 @@ main {
   margin-bottom: 50px;
   margin-left: 80px;
 }
-
+.ale {
+  background: orange;
+}
 .textarea {
   border: none;
   color: #0a3871;

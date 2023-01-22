@@ -116,14 +116,7 @@ main {
 
 /* Responsividade mobile */
 
-@media (max-width: 375px) and (min-width: 280px) {
-  /* header {
-    position: absolute;
-    width: 375px;
-    height: 96px;
-    left: 0px;
-    top: 0px;
-  } */
+@media (max-width: 414px) and (min-width: 280px) {
   h6 {
     width: 327px;
     font-size: 16px;

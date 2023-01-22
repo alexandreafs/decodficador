@@ -116,7 +116,7 @@ main {
 
 /* Responsividade mobile */
 
-@media (max-width: 414px) and (min-width: 280px) {
+@media (max-width: 450px) and (min-width: 280px) {
   h6 {
     width: 327px;
     font-size: 16px;
